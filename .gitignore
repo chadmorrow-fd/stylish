@@ -1,0 +1,23 @@
+# System
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+out/
+.idea/*
+!.idea/inspectionProfiles
+!.idea/codeStyles
+!.idea/runConfigurations
+
+*.iws
+.gradle
+.java-version
+
+build/
+*.log
+/classes/
+
+node_modules/
+functional-test-failure.png
+
+generated/
