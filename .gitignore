@@ -9,6 +9,8 @@ out/
 !.idea/codeStyles
 !.idea/runConfigurations
 
+*.iml
+
 *.iws
 .gradle
 .java-version

@@ -12,10 +12,16 @@ apply plugin: 'kotlin-platform-js'
 
 repositories {
     mavenCentral()
+    maven {
+        url  "https://kotlin.bintray.com/kotlin-js-wrappers"
+    }
 }
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+    compile 'org.jetbrains:kotlin-css:1.0.0-pre.19-kotlin-1.2.30'
+    compile 'org.jetbrains:kotlin-css-js:1.0.0-pre.19-kotlin-1.2.30'
+    compile 'org.jetbrains:kotlin-extensions:1.0.1-pre.19-kotlin-1.2.30'
     expectedBy project(":")
     testCompile "org.jetbrains.kotlin:kotlin-test-js:$kotlin_version"
 }
